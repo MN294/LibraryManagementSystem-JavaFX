@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane style="-fx-background-color: #f5f5f5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lms.IssueReturnController">
+
+    <!-- Top section with title -->
+    <top>
+        <Label style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-padding: 20; -fx-text-fill: #2c3e50;" text="📚 Issue / Return Books" BorderPane.alignment="CENTER" />
+    </top>
+
+    <!-- Center content with TableView and button -->
+    <center>
+        <VBox alignment="CENTER" spacing="15" style="-fx-padding: 30; -fx-background-color: #2c3e50;">
+            <TableView fx:id="issuedBooksTable" prefHeight="250" style="-fx-background-color: white; -fx-border-color: #bdc3c7; -fx-border-radius: 5;">
+                <columns>
+                    <TableColumn prefWidth="150" text="📖 Book Title" />
+                    <TableColumn prefWidth="150" text="👤 Issued To" />
+                    <TableColumn prefWidth="120" text="📅 Due Date" />
+                    <TableColumn prefWidth="100" text="⚙ Action" />
+                </columns>
+            </TableView>
+
+            <Button fx:id="returnBookBtn" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 20; -fx-background-radius: 5;" text="🔄 Return Selected Book" />
+        </VBox>
+    </center>
+
+    <!-- Bottom section with back button -->
+    <bottom>
+        <HBox alignment="CENTER" style="-fx-padding: 15;">
+            <Button fx:id="backBtn" onAction="#handleBackToDashboard" style="-fx-background-color: #95a5a6; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 20; -fx-background-radius: 5;" text="⬅ Back to Dashboard" />
+        </HBox>
+    </bottom>
+
+</BorderPane>
