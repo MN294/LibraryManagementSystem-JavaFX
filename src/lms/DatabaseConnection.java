@@ -16,9 +16,9 @@ public class DatabaseConnection {
 
     private static DatabaseConnection instance; // The single instance
     private Connection databaseLink;
-    private static final String dbName = "LMS";
-    private static final String dbUser = "root";
-    private static final String dbPassword = "jekzyq-metqe9-sybwaX";
+    private static final String dbName = "Your DB Name";
+    private static final String dbUser = "Your DB Username";
+    private static final String dbPassword = "Your DB Password";
     private static final String url = "jdbc:mysql://localhost/" + dbName;
 
     // Private constructor so no other class can instantiate it
