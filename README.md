@@ -86,7 +86,7 @@ This project was developed collaboratively by a team of two members.
 • Book addition functionality  
 • Books catalogue & search implementation
 
-**[Yasmine's](https://github.com/username) Responsibilities:**  
+**[Yasmine's](https://github.com/Yasmine330) Responsibilities:**  
 
 • Dashboard screen implementation  
 • Issue/Return screen GUI  
@@ -96,28 +96,24 @@ This project was developed collaboratively by a team of two members.
 ---
 📷 **Screenshots**
 
-1.Login Page: 
+1.Login & Register Pages: 
 
-![alt login page](screenshots/login.png)
+<p align="center">
+  <img src="screenshots/login.png" width="400">
+  <img src="screenshots/register.png" width="400">
+</p>
 
-2.Register Page:   
-![alt register page](screenshots/register.png)
+2.Dashboard & Book Addition Pages: 
+<p align="center">
+  <img src="screenshots/dashboard.png" width="400">
+  <img src="screenshots/addBook.png" width="400">
+</p>
 
-3.Dashboard Page: 
-
-![alt register page](screenshots/dashboard.png)
-
-4.Book Addition Page: 
-
-![alt book addition page](screenshots/addBook.png)
-
-5.Books Catalogue/Search Page:
-
-![alt books catalogue/search page](screenshots/booksCatalogue.png)
-
-6.Issue/Return Page:
-
-![alt issue/return page](screenshots/issue_return.png)
+3..Books Catalogue/Search & Issue/Return Pages:
+<p align="center">
+  <img src="screenshots/booksCatalogue.png" width="400">
+  <img src="screenshots/issue_return.png" width="400">
+</p>
 
 ---
 ⚙️ **How to Run:**
